@@ -1,0 +1,9 @@
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Models.deps.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Models.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.csproj.CoreCompileInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.AssemblyInfoInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.AssemblyInfo.cs
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Models.csprojResolveAssemblyReference.cache

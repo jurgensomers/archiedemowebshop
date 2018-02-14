@@ -1,0 +1,22 @@
+div.left{
+    width: 45%;
+    padding: 0px 0px 0px 0px;
+    margin-left: 5px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.right{
+    width: 45%;
+    padding: 0px 0px 0px 0px;
+    margin-right: 5px;
+    float: right;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+#registrationForm {
+    max-width: 600px;
+}

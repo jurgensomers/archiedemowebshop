@@ -1,0 +1,215 @@
+body { 
+    margin:0px;
+    padding: 0px;
+}
+
+#container {
+    width:0px auto;
+    font-family: 'MerriWeather',serif;
+
+}
+
+form {
+    background: rgb(224, 230, 228);
+    border:solid 1px  rgb(17, 165, 121);
+    border-radius: 10px;
+    margin:auto;
+    margin-top:10px;
+    box-shadow: 10px 10px 5px rgb(177, 176, 176);
+    left:50%;
+    right:50%;
+}
+
+h1.formTitle { 
+    text-align: center;
+    width:100%;
+}
+
+fieldset{
+    border:none;
+    margin:0px auto;
+}
+
+input {
+    border:solid 1px rgb(116, 151, 141);
+    border-radius: 10px;
+    padding:5px;
+    height: 35px;
+    width:100%; 
+    box-sizing: border-box;
+}
+ 
+
+input[type="checkbox"]{ 
+    width:25px;
+}
+
+input[type="checkbox"]:after {
+    content: "";
+    position: absolute;
+    display: none;
+} 
+
+select {
+    border:solid 1px rgb(116, 151, 141);
+    border-radius: 10px;
+    padding:5px;
+    height: 35px;
+    width:100%;
+}
+
+div.form-group{
+    display: block;
+    margin: 5px;
+}
+
+label.control-label{
+    display: block;
+    margin: 2px;
+}
+
+button {
+    background: green;
+    color: white;
+    border:solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+    height: 35px;
+    padding:2px 15px 2px 15px;
+    text-align: center; 
+}
+
+button.btn-primary{
+    background-color:#356F18;
+    color:white;
+    border:solid 1px rgb(13, 56, 20);
+    border-radius: 10px;
+   
+}
+
+button.btn-primary:hover{
+    animation-name: buttonDefaultHoverAnimation;
+    animation-duration: 1s; 
+    background-color: #356F18;
+    cursor: pointer;
+}
+
+button.btn-primary:disabled{
+    animation-name: buttonDefaultHoverAnimation;
+    animation-duration: 1s; 
+    background-color: rgb(107, 112, 105);;
+} 
+
+@keyframes buttonDefaultHoverAnimation {
+    from {background-color: rgb(13, 56, 20);}
+    to {background-color: rgb(29, 122, 43);}
+}
+
+button.btn-cancel{
+    background-color:rgb(136, 101, 35); 
+}
+
+:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+
+input:focus,
+select:focus {
+    background: rgb(204, 245, 211);
+}
+
+
+button.btn-cancel:hover{
+    animation-name: buttonCancelHoverAnimation;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+@keyframes buttonCancelHoverAnimation {
+    from {background-color: rgb(136, 101, 35);}
+    to {background-color: rgb(88, 65, 23);}
+}
+
+
+textarea.is-invalid,
+input.is-invalid,
+select.is-invalid{
+    border:red solid 1px;
+}
+
+label.is-invalid {
+    color:red;
+}
+
+.text-danger {
+    color:red;
+    margin-left:10px;
+}
+
+.radiocontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radiocontainer.line {
+    display: inline;
+    margin-right: 10px;
+}
+.radiocontainer.line:after {
+    content: "<br/>";
+    position: absolute;
+    display: none;
+}
+
+.radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radiocontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.radiocontainer input:checked ~ .checkmark {
+    background-color: green;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radiocontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radiocontainer .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}

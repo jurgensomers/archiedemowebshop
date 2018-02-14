@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  archie.webshop:
+    build:
+      context: D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop
+      dockerfile: Archie.Webshop.Api\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: archie.webshop
+    ports:
+    - 80/tcp
+version: '3.0'

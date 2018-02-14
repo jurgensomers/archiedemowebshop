@@ -1,0 +1,17 @@
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.deps.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.runtimeconfig.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.runtimeconfig.dev.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Data.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Data.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Models.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.csprojResolveAssemblyReference.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.csproj.CoreCompileInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.AssemblyInfoInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.AssemblyInfo.cs
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\obj\Debug\netcoreapp2.0\Archie.Webshop.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Business.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop\bin\Debug\netcoreapp2.0\Archie.Webshop.Business.pdb

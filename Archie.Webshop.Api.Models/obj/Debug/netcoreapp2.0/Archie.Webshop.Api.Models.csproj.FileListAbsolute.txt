@@ -1,0 +1,8 @@
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.deps.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\bin\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.csproj.CoreCompileInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.AssemblyInfoInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.AssemblyInfo.cs
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api.Models\obj\Debug\netcoreapp2.0\Archie.Webshop.Api.Models.pdb

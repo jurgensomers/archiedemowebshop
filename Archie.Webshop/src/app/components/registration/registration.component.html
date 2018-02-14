@@ -1,0 +1,179 @@
+
+<div id="container">
+  <form #registrationForm="ngForm" id="registrationForm" novalidate [hidden]="isRegistered">
+
+    <h1 class="formTitle">New registration</h1>
+    <fieldset>
+       <small [hidden]="!errors" class="text-danger" *ngFor="let e of errors" style="display: block">
+            {{e}}
+      </small>
+ 
+      <!-- name -->
+      <div class="form-group left">
+        <label for="name" class="control-label">Name:</label> 
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" 
+        [(ngModel)]="model.name" #name="ngModel" name="name"  
+        [ngClass]="{'is-invalid': name.invalid  && (!name.pristine || registrationForm.submitted)}"   required>
+        <small [hidden]="name.valid || (name.pristine && !registrationForm.submitted)" class="text-danger">
+          Name is required
+        </small>
+      </div>
+
+        <!-- first name -->
+      <div class="form-group right">
+        <label for="name" class="control-label">First name:</label> 
+        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" 
+        [(ngModel)]="model.firstName" #firstName="ngModel" name="firstName"  
+        [ngClass]="{'is-invalid': firstName.invalid && (!firstName.pristine || registrationForm.submitted)}"   required>
+        <small [hidden]="firstName.valid || (firstName.pristine && !registrationForm.submitted)" class="text-danger">
+          First name is required
+        </small>
+      </div> 
+     
+
+        <!-- email -->
+      <div class="form-group">
+        <label for="email" class="control-label">Email:</label> 
+        <input type="text" class="form-control" id="email" placeholder="Enter your email address" 
+        [(ngModel)]="model.email" #email="ngModel" name="email"  
+        [ngClass]="{'is-invalid': email.invalid && (!email.pristine || registrationForm.submitted)}" 
+        pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$" required>
+        <small [hidden]="email.valid || (email.pristine && !registrationForm.submitted)" class="text-danger">
+          Email is required and format should be <i>john@doe.com</i>.
+        </small>
+      </div> 
+    
+      <!-- password -->
+      <div class="form-group left">
+        <label for="password" class="control-label">Password:</label> 
+        <input type="password" class="form-control" id="password" #password="ngModel" name="password"
+        placeholder="enter a password"
+        [(ngModel)]="model.password"  
+        required  validateEqual="confirmPassword" reverse="true" 
+        [ngClass]="{'is-invalid': password.invalid && (!password.pristine || registrationForm.submitted)}"> 
+        <small [hidden]="password.valid || (password.pristine && !registrationForm.submitted)" class="text-danger">
+          Password is required
+        </small>
+      </div>
+
+      
+
+      <!-- confirm password -->
+      <div class="form-group right">
+        <label for="confirmPassword" class="control-label">Password confirmation:</label> 
+        <input type="password" class="form-control" id="confirmPassword" #confirmPassword="ngModel"  name="confirmPassword" 
+        placeholder="confirm you password"
+        [(ngModel)]="model.confirmPassword"  
+        required  validateEqual="password" reverse="false"
+        [ngClass]="{'is-invalid': confirmPassword.invalid && (!confirmPassword.pristine || registrationForm.submitted)}" > 
+        <small [hidden]="confirmPassword.valid || (confirmPassword.pristine && !registrationForm.submitted)" class="text-danger">
+            Password mismatch
+          </small>
+      </div> 
+    
+    
+      <!-- Date of birth -->
+      <div class="form-group left">
+        <label for="dateOfBirth" class="control-label">Date of birth:</label> 
+        <input type="date" class="form-control" id="dateOfBirth" [(ngModel)]="model.dateOfBirth" #dateOfBirth="ngModel" name="dateOfBirth" 
+        required  [ngClass]="{'is-invalid': dateOfBirth.invalid && (!dateOfBirth.pristine || registrationForm.submitted)}"> 
+        <small [hidden]="dateOfBirth.valid || (dateOfBirth.pristine && !registrationForm.submitted)" class="text-danger">
+          Date of birth is required
+        </small>
+      </div> 
+
+      <!-- Gender -->
+      <div class="form-group right">
+        <label class="control-label">Gender:</label>    
+        <label class="radiocontainer line" [ngClass]="{'is-invalid': genderGroup.invalid && (!genderGroup.pristine || registrationForm.submitted)}">Male
+          <input type="radio" id="gender_male" name="genderGroup" #genderGroup="ngModel" value="male" [(ngModel)]="model.gender" required >
+          <span class="checkmark"></span>
+        </label>
+        <label class="radiocontainer line" [ngClass]="{'is-invalid': genderGroup.invalid  && (!genderGroup.pristine || registrationForm.submitted)}">Female
+          <input type="radio"  id="gender_female" name="genderGroup" #genderGroup="ngModel" value="female" [(ngModel)]="model.gender" required>
+          <span class="checkmark"></span>
+        </label>  
+        <small [hidden]="genderGroup.valid || (genderGroup.pristine && !registrationForm.submitted)" class="text-danger">
+          Gender is required
+        </small>
+      </div> 
+
+      <!-- Address line 1 -->
+      <div class="form-group">
+        <label for="addressLine1" class="control-label">Address line 1:</label> 
+        <input type="text" class="form-control" id="addressLine1" name="addressLine1" #addressLine1="ngModel"  [(ngModel)]="model.address.line1" 
+        placeholder="enter your address"
+        [ngClass]="{'is-invalid': addressLine1.invalid  && (!addressLine1.pristine || registrationForm.submitted)}" required> 
+        <small [hidden]="addressLine1.valid || (addressLine1.pristine && !registrationForm.submitted)" class="text-danger">
+          Address line is required
+        </small>
+      </div> 
+
+      <!-- Address line 2 -->
+      <div class="form-group">
+        <label for="addressLine2" class="control-label">Address line 2:</label> 
+        <input type="text" class="form-control" id="addressLine2" name="addressLine2" #addressLine2="ngModel" [(ngModel)]="model.address.line2"  
+        placeholder="enter your address"
+        [ngClass]="{'is-invalid': addressLine2.invalid && (!addressLine2.pristine || registrationForm.submitted)}" required> 
+        <small [hidden]="addressLine2.valid || (addressLine2.pristine && !registrationForm.submitted)" class="text-danger">
+          Address line is required
+        </small>
+      </div> 
+
+      <!-- Address municipality -->
+      <div class="form-group left">
+        <label for="municipality" class="control-label">City:</label> 
+        <input type="text" class="form-control" id="municipality" name="municipality" #municipality="ngModel" [(ngModel)]="model.address.municipality"  
+        placeholder="enter your city"
+        [ngClass]="{'is-invalid': municipality.invalid && (!municipality.pristine || registrationForm.submitted)}" required> 
+        <small [hidden]="municipality.valid || (municipality.pristine && !registrationForm.submitted)" class="text-danger">
+          City is required
+        </small>
+      </div> 
+
+      <!-- Address zipcode  -->
+      <div class="form-group right">
+        <label for="zipcode" class="control-label">Zip code:</label> 
+        <input type="text" class="form-control" id="zipcode" name="zipcode" #zipcode="ngModel" [(ngModel)]="model.address.zipcode" required 
+        placeholder="enter your zip code"
+        [ngClass]="{'is-invalid': zipcode.invalid && (!zipcode.pristine || registrationForm.submitted)}"> 
+        <small [hidden]="zipcode.valid || (zipcode.pristine && !registrationForm.submitted)" class="text-danger">
+          Zip code is required
+        </small>
+      </div> 
+
+      <!-- Address country  -->
+      <div class="form-group">
+        <label for="country" class="control-label">Country:</label>  
+        <select [(ngModel)]="model.address.country" placeholder="Select your country" name="country" class="form-control" required #country="ngModel" 
+        [ngClass]="{'is-invalid': country.invalid && (!country.pristine || registrationForm.submitted)}" required>
+          <option value="undefined" disabled selected hidden>Select your country</option>
+          <option value="null" disabled selected hidden>Select your country</option>
+          <option *ngFor="let c of countries"  name="country">
+              {{ c.name }}
+          </option>
+      </select> 
+      <small [hidden]="country.valid || (country.pristine && !registrationForm.submitted)" class="text-danger">
+        Country is required
+      </small>
+      </div> 
+
+      <!-- Keep informed  -->
+      <div class="form-group"> 
+        <input type="checkbox" class="form-control" id="keepInformed" name="keepInformed"  [(ngModel)]="model.keepInformed"> Keep me informed about the latest promotions and actions
+      </div> 
+
+      <!-- buttons -->
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+          <button type="reset" class="btn btn-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" (click)="submit()" [disabled]="!registrationForm.valid" >Submit</button><!--[disabled]="registrationForm.inValid"-->
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <div [hidden]="!isRegistered">
+    <h1>Registration complete</h1>
+    You are now registered.
+  </div>
+</div>

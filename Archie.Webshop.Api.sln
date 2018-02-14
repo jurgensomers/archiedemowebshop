@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7675532E-BD91-483F-84A6-BA3EAD9F17A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Archie.Webshop.Api", "Archie.Webshop.Api\Archie.Webshop.Api.csproj", "{9BA7FB39-1900-4205-9398-E20FD3B6D053}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Archie.Webshop.Api.Business", "Archie.Webshop.Api.Business\Archie.Webshop.Api.Business.csproj", "{5F954D7E-D8B1-4466-AE22-0F08E62F4C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Archie.Webshop.Api.Data", "Archie.Webshop.Api.Data\Archie.Webshop.Api.Data.csproj", "{8DB7E88E-34B4-49B4-8A83-74D59DB8D2FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Archie.Webshop.Api.Models", "Archie.Webshop.Api.Models\Archie.Webshop.Api.Models.csproj", "{CAF07998-0944-45B5-9BB9-DBDDD8E54E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7675532E-BD91-483F-84A6-BA3EAD9F17A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7675532E-BD91-483F-84A6-BA3EAD9F17A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7675532E-BD91-483F-84A6-BA3EAD9F17A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7675532E-BD91-483F-84A6-BA3EAD9F17A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA7FB39-1900-4205-9398-E20FD3B6D053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA7FB39-1900-4205-9398-E20FD3B6D053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA7FB39-1900-4205-9398-E20FD3B6D053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA7FB39-1900-4205-9398-E20FD3B6D053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F954D7E-D8B1-4466-AE22-0F08E62F4C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F954D7E-D8B1-4466-AE22-0F08E62F4C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F954D7E-D8B1-4466-AE22-0F08E62F4C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F954D7E-D8B1-4466-AE22-0F08E62F4C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB7E88E-34B4-49B4-8A83-74D59DB8D2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB7E88E-34B4-49B4-8A83-74D59DB8D2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB7E88E-34B4-49B4-8A83-74D59DB8D2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB7E88E-34B4-49B4-8A83-74D59DB8D2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF07998-0944-45B5-9BB9-DBDDD8E54E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF07998-0944-45B5-9BB9-DBDDD8E54E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF07998-0944-45B5-9BB9-DBDDD8E54E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF07998-0944-45B5-9BB9-DBDDD8E54E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6F2D41E-6269-498E-905C-30EB25916D38}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://summ-it.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Archie.Webshop.Api.Business\\Archie.Webshop.Api.Business.csproj
+		SccProjectName1 = Archie.Webshop.Api.Business
+		SccLocalPath1 = Archie.Webshop.Api.Business
+		SccProjectUniqueName2 = Archie.Webshop.Api.Data\\Archie.Webshop.Api.Data.csproj
+		SccProjectName2 = Archie.Webshop.Api.Data
+		SccLocalPath2 = Archie.Webshop.Api.Data
+		SccProjectUniqueName3 = Archie.Webshop.Api.Models\\Archie.Webshop.Api.Models.csproj
+		SccProjectName3 = Archie.Webshop.Api.Models
+		SccLocalPath3 = Archie.Webshop.Api.Models
+		SccProjectUniqueName4 = Archie.Webshop.Api\\Archie.Webshop.Api.csproj
+		SccProjectName4 = Archie.Webshop.Api
+		SccLocalPath4 = Archie.Webshop.Api
+	EndGlobalSection
+EndGlobal

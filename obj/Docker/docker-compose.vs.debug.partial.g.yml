@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  archie.webshop:
+    image: archie.webshop:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_archie.webshop$
+    volumes:
+      - D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api:C:\app
+      - C:\Users\Jurgen\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_archie.webshop$
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_archie.webshop$ bin\\Debug\\netcoreapp2.0\\Archie.Webshop.Api.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"

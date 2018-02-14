@@ -1,0 +1,17 @@
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.deps.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.runtimeconfig.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.runtimeconfig.dev.json
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Business.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Data.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Models.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Business.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Models.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\bin\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.Data.pdb
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.csprojResolveAssemblyReference.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.csproj.CoreCompileInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.AssemblyInfoInputs.cache
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.AssemblyInfo.cs
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.dll
+D:\Projects\Archie\1.0\40 - Client - Web\Archie.Webshop\Archie.Webshop.Api\obj\Any CPU\Release\netcoreapp2.0\Archie.Webshop.Api.pdb

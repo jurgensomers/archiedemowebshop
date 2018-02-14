@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  archie.webshop:
+    image: archie.webshop
+    build:
+      context: .
+      dockerfile: Archie.Webshop.Api\Dockerfile
